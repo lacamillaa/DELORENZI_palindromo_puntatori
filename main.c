@@ -29,6 +29,12 @@ int palindromo(char* s) {
 }
 
 int main(void) {
-    printf("Hello, World!\n");
+    char s[] = "Annalisa";
+    puts(s);
+    if (palindromo(s)) {
+        printf("e' un palindromo\n");
+    } else {
+        printf("non e' un palindromo\n");
+    }
     return 0;
 }
